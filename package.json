@@ -1,0 +1,17 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "E2E testing with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --headed"
+  },
+  "author": "Marcin Łapaj (marcin.lapaj@iteratec.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "@nrwl/cypress": "^13.1.4",
+    "cypress": "^9.0.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "typescript": "^4.4.4"
+  }
+}
