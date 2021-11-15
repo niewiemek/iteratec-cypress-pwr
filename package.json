@@ -4,7 +4,8 @@
   "description": "E2E testing with Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --headed"
+    "test": "cypress run --headed",
+    "start": "cypress open"
   },
   "author": "Marcin Łapaj (marcin.lapaj@iteratec.com)",
   "license": "ISC",
