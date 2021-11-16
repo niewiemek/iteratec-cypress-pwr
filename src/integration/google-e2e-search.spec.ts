@@ -57,7 +57,6 @@ describe('Google Search', () => {
 
             cy.get('ul[role="listbox"] > li')
             .should('have.length', 5)
-            .should('have.text', '...')
         })
     })
 })
